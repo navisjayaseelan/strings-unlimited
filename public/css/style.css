@@ -1,0 +1,371 @@
+body
+{
+	margin: 0px 0px 0px 0px;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: normal;
+	text-align: left;
+	color: #fff;
+	background: url(/images/Full_Bg.bmp);
+	width: 1280px;
+	height: 100%;
+}
+.wrap
+{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+	background: url(/images/bg.png);
+}
+#logo
+{
+}
+#logo h1
+{
+	color: #fff;
+}
+#logo div
+{
+	padding-left: 200px;
+	padding-bottom: 5px;
+}
+
+#nav
+{
+	position: absolute;
+	text-align: center;
+	top: 21px;
+	left: 981px;
+	background: url(/images/nav.jpg);
+	width: 215px;
+	height: 30px;
+	line-height: 30px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+#nav li
+{
+	list-style: none;
+	float: left;
+	text-decoration: underline;
+	width: 106px;
+	font-weight: bold;
+}
+#nav a
+{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+}
+#nav a:hover
+{
+	background: url(/images/nav_hover.jpg);
+	margin: 0 0 0 0px;
+}
+
+#Ads
+{
+	background: url(/images/ads_Bg.bmp);
+	height: 20px;
+}
+
+#Ads a
+{
+	color: #fff;
+	text-decoration: none;
+}
+#HeadingBar
+{
+	text-align: justify;
+	margin: 10px 95px 50px 75px;
+	height: 220px;
+	background: url(/images/contactbg1.JPG);
+	color: Black;
+}
+#HeadingBar div
+{
+	color: White;
+	font-size: medium;
+	text-align: center;
+}
+
+#content
+{
+	margin: 25px 0px 25px 0px;
+}
+
+#Mainpage
+{
+	border-collapse: collapse;
+}
+
+#Mainpage td
+{
+	height: 330px;
+	border: 0px;
+	border-color: #FFFFFF;
+	border-style: solid;
+}
+#lefttd
+{
+	height: 100%;
+	text-align: left;
+}
+
+#selectionGrid
+{
+}
+#selectionGrid tr
+{
+}
+
+#selectionGrid td
+{
+	border-collapse: collapse;
+	border-style: none;
+	height: 100%;
+}
+#selectionGrid td a
+{
+}
+
+.clearfix
+{
+	text-align: center;
+	padding-bottom: 20px;
+	border-top: 1px;
+	border-top-style: solid;
+	border-top-color: #FFFFFF;
+}
+
+#Ads-Prod
+{
+	text-align: center;
+	color: #FFF;
+	font-size: medium;
+	height: 50px;
+}
+
+#Contents
+{
+	margin: 0px 6% 0px 6%;
+	text-align: center;
+}
+
+#Contents tr
+{
+	color: #306;
+}
+
+
+#td1
+{
+	border-collapse: collapse;
+	border-width: thin;
+	border-color: #7344A6;
+	border-style: solid;
+	width: 20%;
+	text-align: center;
+}
+#td1 a
+{
+	color: #FFF;
+	font-size: 15px;
+	text-align: center;
+}
+
+#td2
+{
+	width: 40%;
+	border-collapse: collapse;
+	border-width: thin;
+	border-color: #000;
+	border-style: solid;
+}
+#td3
+{
+	width: 40%;
+	border-collapse: collapse;
+	border-width: thin;
+	border-color: #000;
+	border-style: thin;
+	vertical-align: top;
+	color: #FFF;
+	text-align: left;
+}
+#td4
+{
+	width: 20%;
+	border-collapse: collapse;
+	border-width: thin;
+	border-color: #000;
+	border-style: solid;
+}
+#td4 a
+{
+	border-left-style: none;
+	border-width: thin;
+	border-color: #7344A6;
+}
+.caption
+{
+	vertical-align: top;
+	border-bottom-style: double;
+	border-color: #7344A6;
+}
+.Disp
+{
+	vertical-align: middle;
+	text-align: left;
+	padding: 50px 0px 10px 50px;
+}
+
+
+
+
+
+#Sidemenu
+{
+}
+#Sidemenu li
+{
+	text-align: center;
+	vertical-align: middle;
+	list-style: none;
+	height: 42px;
+}
+#Sidemenu a
+{
+	color: #fff;
+	text-decoration: none;
+}
+#Sidemenu a:hover
+{
+	color: #fff;
+}
+
+
+#col
+{
+	text-align: center;
+	margin: 0px 0px 10px 0px;
+}
+#StrengthTable
+{
+	margin: 10px 75px 50px 75px;
+	border-collapse: collapse;
+	border-width: thin;
+	border-color: #7344A6;
+	border-style: solid;
+	width: 1110px;
+}
+
+.TDH
+{
+	height: 50px;
+	border-width: thin;
+	border-color: #7344A6;
+	border-style: solid;
+}
+.TDC1
+{
+	border-width: thin;
+	border-color: #7344A6;
+	border-style: solid;
+	padding: 10px 10px 10px 10px;
+}
+.TDC2
+{
+	border-width: thin;
+	border-color: #7344A6;
+	border-style: solid;
+}
+
+
+
+.contactbg
+{
+	background: url(/images/contactbg.JPG);
+	margin: 10px 75px 10px 100px;
+	height: 320px;
+	width: 1053px;
+	z-index: 0;
+	font-weight: bold;
+}
+.imagebtn
+{
+	background-image: url(/images/headerbg.JPG);
+	padding: 5px 10px 5px 10px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #533F75;
+	border-width:0px;
+}
+
+#cimg
+{
+	float: left;
+	margin-top: 60px;
+	margin-left: 45px;
+	padding: 0 70px 0 0;
+}
+#stcontent
+{
+	margin: 10px 75px 10px 100px;
+	width: 1053px;
+	text-align: justify;
+	border: 1px solid #990099;
+}
+
+#left
+{
+	color: Black;
+	float: left;
+	height: 20px;
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: bold;
+	width: 50%;
+	background-color: #CCC0DA;
+}
+#right
+{
+	color: Black;
+	float: right;
+	text-align: left;
+	height: 20px;
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: bold;
+	width: 50%;
+	background-color: #CCC0DA;
+}
+
+.Grid
+{
+	border-collapse: collapse;
+	margin-bottom: 20px;
+	width: 1127px;
+}
+.wrap #Contents .Grid tr #td1 p a u {
+	color: #306;
+}
+.email {
+	color: #000;
+}
+.email {
+	font-size: 15px;
+	text-align: center;
+	color: #000;
+}
+.wrap .contactbg p {
+	text-align: center;
+}
+.kids {
+	color: #306;
+}
+.kids {
+	color: #306;
+}
+.kids {
+	color: #306;
+}
