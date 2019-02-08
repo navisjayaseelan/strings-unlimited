@@ -1,0 +1,180 @@
+/* Desktop Styles */
+@media only screen and (min-width: 768px) {
+
+/* Megamenu */
+ul#avia-menu { margin-top: 12px !important }
+ul#avia-menu .avia_mega_div { max-height: 110px !important }
+ul#avia-menu .avia_mega_div ul.sub-menu { border-top: 1px solid #fff !important; background: #777 !important; padding: 0 !important }
+ul#avia-menu .avia_mega_div ul.sub-menu li { padding: 60px 10px 28px 10px !important; border-right: 1px solid #979797 !important }
+ul#avia-menu .avia_mega_div ul.sub-menu li span.mega_menu_title a { color: #d7d7d7 !important; text-transform: uppercase !important }
+ul#avia-menu .avia_mega_div ul.sub-menu li:hover span.mega_menu_title a { color: #46cefe !important; text-decoration: none !important }
+ul#avia-menu li ul.sub-menu li:hover { background: #535353 !important }
+ul#avia-menu li ul.sub-menu li span a:before { position: absolute; float: left; text-align: center !important; margin-top: -40px; font-family: FontAwesome; font-size: 40px }
+ul#avia-menu li.menulogo { background: url(http://strings-unlimited.com/wp-content/uploads/2015/02/mainlogo2.png) top center no-repeat  }
+body.home .avia_mega_div { display: none !important }
+
+header { margin-bottom: 0; -webkit-animation: rollup 0.5s; -moz-animation: rollup 0.5s; -ms-animation: rollup 0.5s; -o-animation: rollup 0.5s; animation: rollup 0.5s }
+/* header:hover { margin-bottom: 110px !important; -webkit-animation: rolldown 0.5s; -moz-animation: rolldown 0.5s; -ms-animation: rolldown 0.5s; -o-animation: rolldown 0.5s; animation: rolldown 0.5s } */
+
+@keyframes rolldown { from { margin-bottom: 0 } to { margin-bottom: 132px } }
+@-moz-keyframes rolldown { from { margin-bottom: 0 } to { margin-bottom: 132px } }
+@-webkit-keyframes rolldown { from { margin-bottom: 0 } to { margin-bottom: 132px } }
+@-ms-keyframes rolldown { from { margin-bottom: 0 } to { margin-bottom: 132px } }
+
+@keyframes rollup { from { margin-bottom: 132px } to { margin-bottom: 0 } }
+@-moz-keyframes rollup { from { margin-bottom: 132px } to { margin-bottom: 0 } }
+@-webkit-keyframes rollup { from { margin-bottom: 132px } to { margin-bottom: 0 } }
+@-ms-keyframes rollup { from { margin-bottom: 132px } to { margin-bottom: 0 } }
+
+ul#avia-menu li ul.sub-menu li { padding-bottom: 35px !important }
+ul#avia-menu li ul.sub-menu li span a { text-align: center !important; padding-top: 10px !important; padding-bottom: 0 !important }
+
+ul#avia-menu li.whoweare-menu .avia_mega_div { right: -1136px !important; width: 1312px !important }
+ul#avia-menu li.whoweare-menu .avia_mega_div ul.sub-menu li { width: 25% !important; max-width: 25% !important; min-width: 25% !important }
+ul#avia-menu li.whoweare-menu ul.sub-menu li.a span a:before { content: "\f0c0"; margin-left: 20px !important }
+ul#avia-menu li.whoweare-menu ul.sub-menu li.b span a:before { content: "\f06e"; margin-left: 30px !important }
+ul#avia-menu li.whoweare-menu ul.sub-menu li.c span a:before { content: "\f024"; margin-left: 60px !important }
+ul#avia-menu li.whoweare-menu ul.sub-menu li.d span a:before { content: "\f086"; margin-left: 3px !important }
+
+ul#avia-menu li.whatwedo-menu .avia_mega_div { right: -962px !important; width: 1312px !important  }
+ul#avia-menu li.whatwedo-menu .avia_mega_div ul.sub-menu li { width: 20% !important; max-width: 20% !important; min-width: 20% !important }
+ul#avia-menu li.whatwedo-menu ul.sub-menu li.a span a:before { content: "\f040"; margin-left: 30px !important }
+ul#avia-menu li.whatwedo-menu ul.sub-menu li.b span a:before { content: "\f0ad"; margin-left: 88px !important }
+ul#avia-menu li.whatwedo-menu ul.sub-menu li.c span a:before { content: "\f126"; margin-left: 67px !important }
+ul#avia-menu li.whatwedo-menu ul.sub-menu li.d span a:before { content: "\f012"; margin-left: 72px !important }
+ul#avia-menu li.whatwedo-menu ul.sub-menu li.e span a:before { content: "\f0d1"; margin-left: 22px !important }
+
+ul#avia-menu li.products-menu .avia_mega_div { right: -790px !important; width: 1312px !important  }
+ul#avia-menu li.products-menu .avia_mega_div ul.sub-menu li { width: 25% !important; max-width: 25% !important; min-width: 25% !important}
+ul#avia-menu li.products-menu ul.sub-menu li.a span a:before { content: "\f182"; margin-left: 20px !important }
+ul#avia-menu li.products-menu ul.sub-menu li.b span a:before { content: "\f005"; margin-left: 30px !important }
+ul#avia-menu li.products-menu ul.sub-menu li.c span a:before { content: "\f007"; margin-left: 22px !important }
+ul#avia-menu li.products-menu ul.sub-menu li.d span a:before { content: "\f02e"; margin-left: 30px !important }
+
+ul#avia-menu li.clients-menu .avia_mega_div { right: -352px !important; width: 1312px !important  }
+ul#avia-menu li.clients-menu .avia_mega_div ul.sub-menu li { width: 20% !important; max-width: 20% !important; min-width: 20% !important; text-align: center !important }
+ul#avia-menu li.clients-menu ul.sub-menu li { width: 100% }
+ul#avia-menu li.clients-menu ul.sub-menu li.a span a:before { content: "\f170"; margin-left: 20px !important }
+ul#avia-menu li.clients-menu ul.sub-menu li.b span a:before { content: "\f170"; margin-left: 30px !important }
+ul#avia-menu li.clients-menu ul.sub-menu li.c span a:before { content: "\f170"; margin-left: 22px !important }
+ul#avia-menu li.clients-menu ul.sub-menu li.d span a:before { content: "\f170"; margin-left: 30px !important }
+
+/* Menu per page */
+body.parent-pageid-21 header { margin-bottom: 110px !important; -webkit-animation: none !important; -moz-animation: none !important; -ms-animation: none !important; -o-animation: none !important; animation: none !important }
+body.parent-pageid-21 .avia_mega_div { display: block !important; opacity: 100 !important }
+body.parent-pageid-21 #menu-item-672 { overflow: visible !important }
+body.parent-pageid-21 #menu-item-672 a span.avia-menu-text { color: #46cefe !important }
+body.page-id-32 ul#avia-menu li.whoweare-menu ul.sub-menu li.a span.mega_menu_title a { color: #46cefe !important }
+body.page-id-34 ul#avia-menu li.whoweare-menu ul.sub-menu li.b span.mega_menu_title a { color: #46cefe !important }
+body.page-id-36 ul#avia-menu li.whoweare-menu ul.sub-menu li.c span.mega_menu_title a { color: #46cefe !important }
+body.page-id-38 ul#avia-menu li.whoweare-menu ul.sub-menu li.d span.mega_menu_title a { color: #46cefe !important }
+
+body.parent-pageid-19 header { margin-bottom: 110px !important; -webkit-animation: none !important; -moz-animation: none !important; -ms-animation: none !important; -o-animation: none !important; animation: none !important }
+body.parent-pageid-19 .avia_mega_div { display: block !important; opacity: 100 !important }
+body.parent-pageid-19 #menu-item-823 { overflow: visible !important }
+body.parent-pageid-19 #menu-item-823 a span.avia-menu-text { color: #46cefe !important }
+body.page-id-44 ul#avia-menu li.whatwedo-menu ul.sub-menu li.a span.mega_menu_title a { color: #46cefe !important }
+body.page-id-46 ul#avia-menu li.whatwedo-menu ul.sub-menu li.b span.mega_menu_title a { color: #46cefe !important }
+body.page-id-48 ul#avia-menu li.whatwedo-menu ul.sub-menu li.c span.mega_menu_title a { color: #46cefe !important }
+body.page-id-50 ul#avia-menu li.whatwedo-menu ul.sub-menu li.d span.mega_menu_title a { color: #46cefe !important }
+body.page-id-52 ul#avia-menu li.whatwedo-menu ul.sub-menu li.e span.mega_menu_title a { color: #46cefe !important }
+
+body.parent-pageid-17 header { margin-bottom: 110px !important; -webkit-animation: none !important; -moz-animation: none !important; -ms-animation: none !important; -o-animation: none !important; animation: none !important }
+body.parent-pageid-17 .avia_mega_div { display: block !important; opacity: 100 !important }
+body.parent-pageid-17 #menu-item-824 { overflow: visible !important }
+body.parent-pageid-17 #menu-item-824 a span.avia-menu-text { color: #46cefe !important }
+body.page-id-60 ul#avia-menu li.products-menu ul.sub-menu li.a span.mega_menu_title a { color: #46cefe !important }
+body.page-id-64 ul#avia-menu li.products-menu ul.sub-menu li.b span.mega_menu_title a { color: #46cefe !important }
+body.page-id-62 ul#avia-menu li.products-menu ul.sub-menu li.c span.mega_menu_title a { color: #46cefe !important }
+body.page-id-66 ul#avia-menu li.products-menu ul.sub-menu li.d span.mega_menu_title a { color: #46cefe !important }
+
+/* Hide aviamenu hover */
+body.page-id-32 li.whatwedo-menu .avia_mega_div, body.page-id-32 li.products-menu .avia_mega_div { display: none !important }
+body.page-id-44 li.whoweare-menu .avia_mega_div, body.page-id-44 li.products-menu .avia_mega_div { display: none !important }
+body.page-id-60 li.whatwedo-menu .avia_mega_div, body.page-id-60 li.whoweare-menu .avia_mega_div { display: none !important }
+body.page-id-15 li.whatwedo-menu .avia_mega_div, body.page-id-15 li.whoweare-menu .avia_mega_div, body.page-id-15 li.products-menu .avia_mega_div,
+body.page-id-13 li.whatwedo-menu .avia_mega_div, body.page-id-13 li.whoweare-menu .avia_mega_div, body.page-id-13 li.products-menu .avia_mega_div,
+body.page-id-10 li.whatwedo-menu .avia_mega_div, body.page-id-10 li.whoweare-menu .avia_mega_div, body.page-id-10 li.products-menu .avia_mega_div { display: none !important }
+
+/* Homepage flack colors */
+#hclothe1 .hclothing1, #hclothe3 .hclothing3 { background: rgba(255,255,255,0.8) !important; color: #000 !important }
+#hclothe1 .hclothing1 h2, #hclothe1 .hclothing1 a, #hclothe3 .hclothing3 h2, #hclothe3 .hclothing3 a { color: #000 !important }
+#hclothe2 .hclothing2, #hclothe4 .hclothing4 { background: rgba(0,0,0,0.8) !important; color: #fff !important }
+#hclothe2 .hclothing2 h2, #hclothe2 .hclothing2 a, #hclothe4 .hclothing4 h2, #hclothe4 .hclothing4 a { color: #fff !important }
+#hclothe1 .animated, #hclothe3 .animated { margin-left: 120px !important }
+#hclothe2 .animated, #hclothe4 .animated { margin-right: 120px !important }
+#hclothe1, #hclothe2, #hclothe3, #hclothe4 { background-color: #000 !important }
+
+/* Flack colors */
+#white .boxcontent { background: rgba(255,255,255,0.8); color: #000 !important }
+#white .boxcontent h2, #white .boxcontent a { color: #000 !important }
+#black .boxcontent{ background: rgba(0,0,0,0.8) !important; color: #fff !important }
+#black .boxcontent h2, #black .boxcontent a { color: #fff !important }
+#black .boxcontent h4, #white .boxcontent h4 { font-weight: 500 !important; color: #1eb1ed !important; font-size: 26px !important }
+#black, #white { background-size: 100% auto; min-height: 400px !important }
+#black .container, #white .container, #black .container .content, #white .container .content { padding: 0 !important }
+#black .boxcontent, #white .boxcontent { padding: 20px !important; font-size: 20px }
+#black .largeheight, #white .largeheight { min-height: 600px !important; padding-top: 240px !important }
+body.page-id-32 #black .boxcontent { font-family: "Merriweather" !important; font-size: 16px !important; background: rgba(0,0,0,0.5) !important; font-weight: 300 !important }
+
+body.page-id-34 #main,
+body.page-id-36 #main,
+body.page-id-44 #main,
+body.page-id-46 #main,
+body.page-id-48 #main,
+body.page-id-50 #main ,
+body.page-id-52 #main { 
+	background: #000 !important 
+}
+body.page-id-34 #main #black,
+body.page-id-36 #main #black,
+body.page-id-44 #main #black,
+body.page-id-46 #main #black,
+body.page-id-48 #main #black,
+body.page-id-50 #main #black,
+body.page-id-52 #main #black { 
+	width: 84% !important; margin-left: 8% !important
+}
+
+/* Product page */
+body.parent-pageid-17 .avia_textblock .topproductintro1 { border: none !important; text-align: left !important }
+
+/* Our Commitment page */
+body.page-id-36 #black { min-height: 460px !important }
+body.page-id-36 .avia_textblock h2 { font-size: 18px !important; text-transform: none !important }
+body.page-id-36 #frontcontent1 h4, body.page-id-36 #frontcontent2 h4 { font-weight: 500 !important; color: #1eb1ed !important; font-size: 26px !important }
+body.page-id-36 #frontcontent1 .template-page, body.page-id-36 #frontcontent2 .template-page { padding-top: 10px !important; padding-bottom: 10px !important }
+body.page-id-36 #frontcontent1 .avia-builder-el-6 section .avia_textblock .animated, body.page-id-36 #frontcontent2 .avia-builder-el-11 section .avia_textblock .animated { color: #fff !important; background: rgba(0,0,0,0.6); padding: 20px; text-align: center }
+body.page-id-36 #frontcontent1, body.page-id-36 #frontcontent2 { background: rgba(0,0,0,0.6); position: absolute; width: 90% !important }
+body.page-id-36 #frontcontent1 { margin: 150px 0 0 5% !important }
+body.page-id-36 #frontcontent2 { margin: 300px 0 0 5% !important }
+
+/* FAQ page */
+body.page-id-38 .container { background: rgba(0,0,0,0.8) !important }
+body.page-id-38 .container main { background: #fff !important; margin-left: -50px !important; padding-left: 50px !important }
+body.page-id-38 aside.sidebar h3.widgettitle { color: #fff !important }
+
+/* Clients page */
+.entry-content .gallery dl.gallery-item { width: 30% !important; height: 100% !important; margin-right: 5% !important }
+.entry-content .gallery dl.gallery-item:nth-child(3),
+.entry-content .gallery dl.gallery-item:nth-child(6),
+.entry-content .gallery dl.gallery-item:nth-child(9),
+.entry-content .gallery dl.gallery-item:nth-child(12),
+.entry-content .gallery dl.gallery-item:nth-child(15),
+.entry-content .gallery dl.gallery-item:nth-child(18) { margin-right: 0 !important }
+.entry-content .gallery dl.gallery-item dt.gallery-icon { height: 300px !important; min-height: 300px !important }
+.entry-content .gallery dl.gallery-item dt.gallery-icon a img { width: 80% !important; height: 80% !important; margin: auto !important }
+body.page-id-15 .container { background: rgba(0,0,0,0.8) !important }
+body.page-id-15 .container main { background: #fff !important; margin-left: -50px !important; padding-left: 50px !important }
+body.page-id-15 aside.sidebar h3.widgettitle { color: #fff !important }
+
+/* Thumbnail size */
+.av-masonry figure.av-inner-masonry { height: 400px !important }
+.av-masonry .av-inner-masonry-sizer { height: 410px !important }
+
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 767px) {
+
+}

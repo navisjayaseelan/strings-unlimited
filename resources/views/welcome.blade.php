@@ -52,16 +52,18 @@ img.emoji {
 <link rel='stylesheet' id='slick-css'  href='http://strings-unlimited.com/wp-content/plugins/wp-carousel-free/assets/css/slick.css?ver=20170501' type='text/css' media='all' />
 <link rel='stylesheet' id='font-awesome-css'  href='http://strings-unlimited.com/wp-content/plugins/wp-carousel-free/assets/css/font-awesome.min.css?ver=20170501' type='text/css' media='all' />
 <link rel='stylesheet' id='wp-carousel-free-style-css'  href='http://strings-unlimited.com/wp-content/plugins/wp-carousel-free/assets/css/style.css?ver=20170501' type='text/css' media='all' />
-<link rel='stylesheet' id='avia-grid-css'  href='http://strings-unlimited.com/wp-content/themes/enfold/css/grid.css?ver=2' type='text/css' media='all' />
-<link rel='stylesheet' id='avia-base-css'  href='http://strings-unlimited.com/wp-content/themes/enfold/css/base.css?ver=2' type='text/css' media='all' />
-<link rel='stylesheet' id='avia-layout-css'  href='http://strings-unlimited.com/wp-content/themes/enfold/css/layout.css?ver=2' type='text/css' media='all' />
-<link rel='stylesheet' id='avia-scs-css'  href='http://strings-unlimited.com/wp-content/themes/enfold/css/shortcodes.css?ver=2' type='text/css' media='all' />
-<link rel='stylesheet' id='avia-popup-css-css'  href='http://strings-unlimited.com/wp-content/themes/enfold/js/aviapopup/magnific-popup.css?ver=1' type='text/css' media='screen' />
-<link rel='stylesheet' id='avia-media-css'  href='http://strings-unlimited.com/wp-content/themes/enfold/js/mediaelement/skin-1/mediaelementplayer.css?ver=1' type='text/css' media='screen' />
-<link rel='stylesheet' id='avia-print-css'  href='http://strings-unlimited.com/wp-content/themes/enfold/css/print.css?ver=1' type='text/css' media='print' />
+
+
+<link rel='stylesheet' id='avia-grid-css'  href="{{ URL::asset('css/grid.css') }}" type='text/css' media='all' />
+<link rel='stylesheet' id='avia-base-css'  href="{{ URL::asset('css/grid.css') }}" type='text/css' media='all' />
+<link rel='stylesheet' id='avia-layout-css'  href="{{ URL::asset('css/layout.css') }}" type='text/css' media='all' />
+<link rel='stylesheet' id='avia-scs-css' href="{{ URL::asset('css/shortcodes.css') }}" type='text/css' media='all' />
+<link rel='stylesheet' id='avia-popup-css-css' href="{{ URL::asset('css/magnific-popup.css') }}" type='text/css' media='screen' />
+<link rel='stylesheet' id='avia-media-css' href="{{ URL::asset('css/mediaelementplayer.css') }}" type='text/css' media='screen' /> 
+<link rel='stylesheet' id='avia-print-css'  href="{{ URL::asset('css/print.css') }}"  type='text/css' media='print' />
 <link rel='stylesheet' id='avia-dynamic-css'  href='http://strings-unlimited.com/wp-content/uploads/dynamic_avia/su.css?ver=55ab6a9333130' type='text/css' media='all' />
-<link rel='stylesheet' id='avia-custom-css'  href='http://strings-unlimited.com/wp-content/themes/enfold/css/custom.css?ver=2' type='text/css' media='all' />
-<link rel='stylesheet' id='avia-style-css'  href='http://strings-unlimited.com/wp-content/themes/su/style.css?ver=2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-custom-css' href="{{ URL::asset('css/custom.css') }}" type='text/css' media='all' />
+<link rel='stylesheet' id='avia-style-css' href="{{ URL::asset('css/style.css') }}" type='text/css' media='all' />
 <script type='text/javascript' src='http://strings-unlimited.com/wp-includes/js/jquery/jquery.js?ver=1.11.2'></script>
 <script type='text/javascript' src='http://strings-unlimited.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
 <script type='text/javascript' src='http://strings-unlimited.com/wp-content/plugins/animate-it/assets/js/viewportchecker.js?ver=4.2.21'></script>
